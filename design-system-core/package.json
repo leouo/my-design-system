@@ -1,6 +1,5 @@
 {
   "name": "@leouo/design-system-core",
-  "private": true,
   "version": "0.0.1",
   "description": "Stencil App Starter",
   "main": "dist/index.cjs.js",
@@ -23,5 +22,14 @@
     "jest-cli": "^27.4.5",
     "puppeteer": "^10.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leouo/my-design-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leouo/my-design-system/issues"
+  },
+  "homepage": "https://github.com/leouo/my-design-system#readme",
+  "author": "@leouo",
   "license": "MIT"
 }

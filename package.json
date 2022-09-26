@@ -3,17 +3,14 @@
   "version": "0.0.1",
   "description": "My personal design system",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leouo/my-design-system.git"
   },
-  "author": "@leouo",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/leouo/my-design-system/issues"
   },
-  "homepage": "https://github.com/leouo/my-design-system#readme"
+  "homepage": "https://github.com/leouo/my-design-system#readme",
+  "author": "@leouo",
+  "license": "MIT"
 }
