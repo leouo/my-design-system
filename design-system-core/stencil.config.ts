@@ -1,17 +1,19 @@
 import { Config } from '@stencil/core';
-
-// https://stenciljs.com/docs/config
+import { reactOutputTarget as react } from '@stencil/react-output-target';
 
 export const config: Config = {
+  namespace: 'designSystemCore',
   globalStyle: 'src/global/app.css',
   globalScript: 'src/global/app.ts',
   taskQueue: 'async',
   outputTargets: [
+    react({
+      componentCorePackage: 'design-system-core',
+      proxiesFile: '../design-system-react/src/components/stencil-generated/index.ts',
+      includeDefineCustomElements: true,
+    }),
     {
-      type: 'www',
-      // comment the following line to disable service workers in production
-      serviceWorker: null,
-      baseUrl: 'https://myapp.local/',
-    },
+      type: 'dist'
+    }
   ],
 };
