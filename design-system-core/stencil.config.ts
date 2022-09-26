@@ -8,7 +8,7 @@ export const config: Config = {
   taskQueue: 'async',
   outputTargets: [
     react({
-      componentCorePackage: 'design-system-core',
+      componentCorePackage: '@leouo/design-system-core',
       proxiesFile: '../design-system-react/src/components/stencil-generated/index.ts',
       includeDefineCustomElements: true,
     }),
